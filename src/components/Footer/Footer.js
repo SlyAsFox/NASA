@@ -8,8 +8,7 @@ const Footer = () => {
       <div className="logo">
         <img src={logo} alt="logo" />
       </div>
-
-      <span>Satteliter©2019, All Rights Reserved</span>
+      <span>©2019 Space App Challenge, Set Your Sights High | SLY_FOXES</span>
     </footer>
   );
 };

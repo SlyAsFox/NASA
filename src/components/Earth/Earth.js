@@ -5,7 +5,6 @@ import './Earth.css';
 const Earth = () => {
   return (
     <div>
-      <img src="./" alt="Earth" />
       <EarthModel />
     </div>
   );
