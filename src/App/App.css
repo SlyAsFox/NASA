@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app {
+  font-family: Ubuntu sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #fff;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  border-color: #fe9f00;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Ubuntu sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+} */

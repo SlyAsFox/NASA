@@ -1,0 +1,12 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin: 5em 1em 5em;
+  padding: 1em;
+  border: 1px solid;
+  border-color: #fe9f00;
+}
+
+.menu span {
+  text-transform: uppercase;
+}

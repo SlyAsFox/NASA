@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  border-color: #fe9f00;
+  background-color: #2b3b44;
+  opacity: 0.8;
+}
+
+.logo-name {
+  display: flex;
+}
+
+.logo-name img {
+  width: 200px;
+}
+
+.contact a {
+  text-transform: uppercase;
+  /* font-weight: 700; */
+  color: #fff;
+  margin-right: 2em;
+}

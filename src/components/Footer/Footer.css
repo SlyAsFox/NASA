@@ -1,0 +1,14 @@
+.footer {
+  background-color: #2b3b44;
+  opacity: 0.8;
+  border-top: 1px solid;
+  border-color: #fe9f00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1.5em;
+}
+
+.logo img {
+  width: 200px;
+}
