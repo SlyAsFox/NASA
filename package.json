@@ -8,6 +8,7 @@
     "dangerously-set-inner-html": "^2.0.1",
     "es6-tween": "^5.5.10",
     "lowloader": "^1.0.0",
+    "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-globe": "^4.0.0",
