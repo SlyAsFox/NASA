@@ -1,11 +1,19 @@
 .header {
+  position: fixed;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid;
   border-color: #fe9f00;
-  background-color: #2b3b44;
+  background-color: #000;
   opacity: 0.8;
+  font-family: 'BebasNeueRegular';
+  letter-spacing: 1.5px;
+  height: 10vh;
+  width: 100%;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .logo-name {
@@ -16,9 +24,9 @@
   width: 200px;
 }
 
-.contact a {
+.contact {
   text-transform: uppercase;
   /* font-weight: 700; */
   color: #fff;
-  margin-right: 2em;
+  margin-right: 1em;
 }

@@ -4,7 +4,7 @@ import ReactGlobe from 'react-globe';
 class EarthModel extends Component {
   render() {
     return (
-      <div style={{ width: '50vw', height: '80vh' }}>
+      <div style={{ padding: '10vh 0', width: '100vw', height: '100vh' }}>
         <ReactGlobe />
       </div>
     );

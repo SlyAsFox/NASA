@@ -1,10 +1,16 @@
 .menu {
+  position: absolute;
   display: flex;
   flex-direction: column;
-  margin: 5em 1em 5em;
+  left: 1em;
   padding: 1em;
   border: 1px solid;
   border-color: #fe9f00;
+  font-family: 'BebasNeueRegular';
+  letter-spacing: 1.5px;
+
+  font-weight: normal;
+  font-style: normal;
 }
 
 .menu span {

@@ -1,6 +1,17 @@
 .sattelite {
+  position: absolute;
+  right: 1em;
   margin-right: 1em;
   border: 1px solid;
-  padding: 1em;
   border-color: #fe9f00;
+  font-family: 'BebasNeueRegular';
+  letter-spacing: 1.5px;
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sattelite img{
+  width: 20vw;
+  height: 30vh;
 }

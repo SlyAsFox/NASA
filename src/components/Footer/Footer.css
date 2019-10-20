@@ -1,14 +1,24 @@
 .footer {
-  background-color: #2b3b44;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
   opacity: 0.8;
   border-top: 1px solid;
   border-color: #fe9f00;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 1.5em;
+  /*padding-bottom: 1.5em;*/
   margin-bottom: 0;
   padding-bottom: 0;
+  font-family: 'BebasNeueRegular';
+  letter-spacing: 1.5px;
+
+  font-weight: normal;
+  font-style: normal;
+  height: 10vh;
+
 }
 
 .logo img {

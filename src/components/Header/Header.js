@@ -8,7 +8,7 @@ const Header = () => {
         <img src={logo} alt="logo" />
       </div>
       <div className="contact">
-        <a href="./">contact</a>
+        sly_foxes team
       </div>
     </section>
   );
