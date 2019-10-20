@@ -1,4 +1,5 @@
 .menu {
+  width: 20vw;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -13,6 +14,23 @@
   font-style: normal;
 }
 
+.title-span{
+  color: #fe9f00;
+}
 .menu span {
   text-transform: uppercase;
+
+
+}
+select {
+  background: #000;
+  position: absolute;
+  border: none;
+
+}
+
+.title-info{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
 }

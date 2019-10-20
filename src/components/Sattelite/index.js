@@ -1,3 +1,3 @@
-import Sattelite from './Sattelite';
+import Satellite from './Satellite';
 
-export default Sattelite;
+export default Satellite;

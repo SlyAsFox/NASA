@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import ModalTitle from '../components/ModalTitle';
 import Menu from '../components/Menu';
 import Earth from '../components/Earth';
-import Sattelite from '../components/Sattelite';
+import Satellite from '../components/Sattelite';
 import Footer from '../components/Footer';
 
 import './App.css';
@@ -18,7 +18,7 @@ const App = () => {
       <div className="main">
         <Menu />
         <Earth />
-        <Sattelite />
+        <Satellite />
       </div>
       <Footer />
     </div>
