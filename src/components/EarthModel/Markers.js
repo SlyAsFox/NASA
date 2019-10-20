@@ -20,7 +20,7 @@ const curr_date = new Date().toISOString().split('-').join('').split(':').join('
 // console.log(curr_date);
 for (let i = 0; i < satelites.length; i++) {
     
-    url = `https://sscweb.sci.gsfc.nasa.gov/WS/sscr/2/locations/${ satelites[i] }/20191018T220000Z,${ curr_date }/geo/`;
+    url = `https://sscweb.sci.gsfc.nasa.gov/WS/sscr/2/locations/${ satelites[i] }/20191019T230000Z,${ curr_date }/geo/`;
 
     request = new XMLHttpRequest();
     request.open("GET", url, false);

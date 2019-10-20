@@ -10,15 +10,18 @@ class Menu extends Component {
     state = {
         selectValue: 'all',
         satellites: this.props.satelliteInfo,
+        // name:
     };
 
     handleChange = e => {
-        console.log(e.currentTarget.value);
-        this.setState({
-            selectValue: e.currentTarget.value,
+        // console.log(e.currentTarget.value);
+        this.setState({selectValue: e.currentTarget.value}, () =>{ this.props.updateData(this.state.selectValue)
         });
+        // this.props.updateData(this.getState(.selectValue)
     };
 
+
+    //onClick={()=>{this.props.updateData(satellite.name)}}
     render() {
         const { selectValue, satellites } = this.state;
         return (
@@ -34,8 +37,7 @@ class Menu extends Component {
                 </div>
                 {satellites.map(satellite => {
                     if (satellite.name === selectValue) {
-                        console.log(satellite);
-                        return <MenuSatellite satellite={satellite} />;
+                        return <MenuSatellite  satellite={satellite} />;
                     }
                 })}
             </div>
