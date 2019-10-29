@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
 import {getImages } from '../../redux/actions/imagesAction.js';
 import './Satellite.css';
-import satellitesData from "../../redux/reducers/satellitesData";
-
-// componentDidMount() {
-//   this.props.getProfile();
-// }
 
 const Satellite = props => {
 
@@ -52,10 +46,6 @@ Satellite.propTypes = {
 
 const mapStateToProps = state => {
   console.log(state.satellitesData);
-  return {
-    // srcImages: state.imagesReducer.srcImages,
-    // srcImages: state.satellitesData.srcImages,
-  };
 };
 
 const mapDispatchToProps = {

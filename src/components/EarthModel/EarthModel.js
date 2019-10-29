@@ -9,15 +9,17 @@ class EarthModel extends Component {
 
     return (
       <div style={{ padding: '10vh 0', width: '100vw', height: '100vh' }}>
-          {this.props.name === 'all' ?
-              (<ReactGlobe globeOptions={{}}
-              markers={markers}
-          />) : (<ReactGlobe login={this.props.name}
-              globeOptions={{
-              }}
-              markers={markers2(this.props.name)}
-              // markerOptions={{ renderer: markerRenderer }}
-          />)
+          {
+            (this.props.name === 'all')
+              ? (<ReactGlobe
+                  globeOptions={{}}
+                  markers={markers}
+                />)
+              : (<ReactGlobe login={this.props.name}
+                  globeOptions={{}}
+                  markers={markers2(this.props.name)}
+                  // markerOptions={{ renderer: markerRenderer }}
+                />)
           }
       </div>
     );

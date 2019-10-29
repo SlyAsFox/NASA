@@ -25,5 +25,5 @@ for (let i = 0; i < 500; i++) {
         coordinates: [Math.sin(i / 10) * 20, (i /10 + index) * 10],
         value: 10
     });
-} return(markers)}
+} return(markers)};
 export default markers2;

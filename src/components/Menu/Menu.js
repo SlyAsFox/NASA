@@ -20,7 +20,6 @@ class Menu extends Component {
         // this.props.updateData(this.getState(.selectValue)
     };
 
-
     //onClick={()=>{this.props.updateData(satellite.name)}}
     render() {
         const { selectValue, satellites } = this.state;
