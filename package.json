@@ -21,7 +21,7 @@
     "redux": "^4.0.4",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
-    "three": "^0.109.0",
+    "three": "^0.125.0",
     "three-glow-mesh": "^0.1.1",
     "three-orbitcontrols": "^2.108.1",
     "three.interaction": "^0.2.2",
